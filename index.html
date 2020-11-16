@@ -9,11 +9,26 @@
 
 <body>
 
-<button class="button1" style="background-color: blue;">Sound 1</button>
-<button class="button2" style="background-color:pink">Sound 2</button>
-<button class="button3" style="background-color:orange">Sound 3</button>
+<button onclick="playSound1()" onmouseover="playSound1()" type="button" style="background-color: blue;">Sound 1</button>
+<button onclick="playSound()" onmouseover="playSound()" type="button" style="background-color: pink">Sound 2</button>
+<button onclick="playSound()" onmouseover="playSound()" type="button" style="background-color: orange">Sound 3</button>
 
 <script src=“script.js></script>
+
+
+<audio id="mySound1">
+    <source src="Cat.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+<script> 
+var a = document.getElementById("mySound1"); 
+
+function playSound1() { 
+  a.play(); 
+} 
+
+</script> 
 
 </body>
 
