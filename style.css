@@ -1,6 +1,6 @@
 
 html {
-    background-color:rgb(151, 193, 240);
+    background-color:lightblue(151, 193, 240);
 }
 body{
     background-color:whitesmoke;
@@ -12,6 +12,7 @@ body{
 
 
 button{
+    size: 400px;
      display:inline-block;
      padding:0.3em 1em;
      margin:0 0.2em 0.2em 0;
