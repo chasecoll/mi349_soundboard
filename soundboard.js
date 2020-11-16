@@ -1,7 +1,7 @@
 
  
-var a = new Audio("cat.mp3"); 
+var catsound = new Audio();
+catpsound.src = "cat.mp3" 
 
-document.onclick = playSound1() { 
-  a.play(); 
+
 } 
