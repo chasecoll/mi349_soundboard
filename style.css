@@ -24,7 +24,7 @@ button{
      text-align:center;
      transition: all 0.1s;
 }
-button:hover{
+.button1:hover{
      border-color: white;
     }
     
