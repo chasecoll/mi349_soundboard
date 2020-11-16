@@ -9,10 +9,22 @@
 
 <body>
 <h1>Play Sound</h1>
+
 <audio id = "catsound">
     <source src ="Cat.mp3" type ="audio/mp3">
 </audio>
-<button onclick= soundplay() class = "button1" onmouseover= soundplay() type="button" style="background-color: blue;">Sound 1</button>
+
+<audio id = "dogsound">
+    <source src ="Dog.mp3" type ="audio/mp3">
+</audio>
+
+<audio id = "birdsound">
+    <source src ="Bird.mp3" type ="audio/mp3">
+</audio>
+
+<button onclick= soundplay()  class = "button1" onmouseover= soundplay() type="button" style="background-color: blue;">Cat Sound</button>
+<button onclick= soundplay2() class = "button1" onmouseover= soundplay2() type="button" style="background-color: pink">Dog Sound</button>
+<button onclick= soundplay3() class = "button1" onmouseover= soundplay3() type="button" style="background-color: orange">Bird Sound</button>
 
 <script 
 src="soundboard.js">
