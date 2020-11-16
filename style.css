@@ -12,14 +12,14 @@ body{
 
 
 button{
-     display:inline-block;
+     display:center inline-block;
      padding:0.3em 1em;
      margin:0 0.2em 0.2em 0;
      border:0.15em groove black;
      border-radius:3em;
      box-sizing: border-box;
      font-family: helvetica;
-    font-size: 24px;
+    font-size: 32px;
      color: white;
      text-align:center;
      transition: all 0.1s;
@@ -27,5 +27,9 @@ button{
 button:hover{
      border-color: white;
     }
- 
+    @media all and (max-width:30em){
+         .button1{
+          display:block;
+          margin:0.2em auto;
+         }
     
