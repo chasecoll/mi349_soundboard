@@ -8,8 +8,11 @@
 </head>
 
 <body>
-
-<button onclick= catsound.play() class = "button1" onmouseover= catsound.play() type="button" style="background-color: blue;">Sound 1</button>
+<h1>Play Sound</h1>
+<audio id = "catsound">
+    <source src ="Cat.mp3" type ="audio/mp3">
+</audio>
+<button onclick= soundplay() class = "button1" onmouseover= soundplay() type="button" style="background-color: blue;">Sound 1</button>
 
 <script src="soundboard.js"></script>
 

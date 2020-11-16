@@ -1,7 +1,9 @@
 
  
-var catsound = new Audio();
-catsound.src = "cat.mp3"; 
+var audio = document.getElementById("catsound");
+function soundplay(){
+    audio.play();
+}
 
 
 } 
