@@ -1,0 +1,17 @@
+
+html {
+    background-color:rgb(151, 193, 240);
+}
+body{
+    background-color:whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    color:black;
+    border-top: 15px groove darkred;
+}
+button{
+    background: grey;
+    color: whitesmoke;
+    border: thin darkred;
+    size: 400px;
+}
