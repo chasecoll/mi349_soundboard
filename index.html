@@ -14,7 +14,15 @@
 </audio>
 <button onclick= soundplay() class = "button1" onmouseover= soundplay() type="button" style="background-color: blue;">Sound 1</button>
 
-<script src="soundboard.js"></script>
+
+
+<script>
+    var audio = document.getElementById("catsound");
+function soundplay(){
+    audio.play();
+}
+</script>
+
 
 </body>
 
