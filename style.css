@@ -9,14 +9,9 @@ body{
     color:black;
     border-top: 15px groove darkred;
 }
-button{
-    background: grey;
-    color: whitesmoke;
-    border: thin darkred;
-    size: 400px;
-}
 
-a.button4{
+
+button{
      display:inline-block;
      padding:0.3em 1em;
      margin:0 0.2em 0.2em 0;
@@ -27,8 +22,8 @@ a.button4{
      color: red;
      text-align:center;
      transition: all 0.1s;
-    }
-    a.button4:hover{
+}
+    button:hover{
      border-color: white;
     }
  
