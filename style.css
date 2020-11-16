@@ -7,7 +7,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 40px;
     color:black;
-    border-top: 15px groove darkred;
+    border-top: 15px groove aqua;
 }
 
 
@@ -26,9 +26,5 @@ button{
 button:hover{
      border-color: white;
     }
-    @media all and (max-width:30em){
-         .button1{
-          display:block;
-          margin:0.2em auto;
-         }
+ 
     
